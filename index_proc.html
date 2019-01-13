@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<form action="" method="post" name="test" id="form">
+		<label for="name">Имя:</label>
+		<input type="text" name="name" id="name" placeholder="Имя"><br><br>
+		<label for="password">Пароль:</label>
+		<input type="password" name="password" placeholder="Пароль" id="password"><br><br>
+		<label for="RePassword">Проверка пароля:</label>
+		<input type="password" name="RePassword" placeholder="Введите пароль" id="RePassword"><br><br>
+		<span>Пол:</span>
+		<input type="radio" name="state" value="Мужской" id="male">
+		<label for="male">Мужской</label>
+		<input type="radio" name="state" value="Женский" id="female">
+		<label for="female">Женский</label><br><br>
+		<input type="submit" onclick="valid(document.getElementById)" name="submit" value="Готово">
+	</form>
+</body>
+<script src="js/processing.js"></script>
+</html>
