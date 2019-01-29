@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\openserver\domains\js.loc\js.clpprj">
+	<settings><PM_URL><![CDATA[C:/OpenServer/OpenServer/domains/]]></PM_URL><PM_HOME_URL><![CDATA[C:/OpenServer/OpenServer/domains/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\openserver\domains\js.loc\js\script.js"/>
+	</lastopfiles>
+	<codestructure version="5.0">
+		<phptree>
+		</phptree>
+		<jstree>
+			<treenode node="a;JS:JS Var Name;C:\OpenServer\domains\js.loc\index.html;f8;17;9;17;;C:\OpenServer\domains\js.loc\js\script.js;f4;2;5;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr_res;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;33;11;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr2;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;0;8;0;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="b;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;4;5;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="c;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;5;5;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="document;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f1;93;9;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="key;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f8;92;11;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="my_var;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="res;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;74;7;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\openserver\domains\js.loc\js\script.js" crc="1683434430"/>
+		<file name="C:\openserver\domains\js.loc\css\style.css" crc="708751817"/>
+	</filescache>
+</project>

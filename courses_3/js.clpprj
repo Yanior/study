@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\openserver\domains\js.loc\js.clpprj">
+	<settings><PM_URL><![CDATA[C:/OpenServer/OpenServer/domains/]]></PM_URL><PM_HOME_URL><![CDATA[C:/OpenServer/OpenServer/domains/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\openserver\domains\js.loc\js\script.js"/>
+	</lastopfiles>
+	<codestructure version="5.0">
+		<phptree>
+		</phptree>
+		<jstree>
+			<treenode node="a;JS:JS Var Name;C:\OpenServer\domains\js.loc\index.html;f8;17;9;17;;C:\OpenServer\domains\js.loc\js\script.js;f4;2;5;2;;C:\openserver\domains\js.loc\js\script.js;f4;4;5;4;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;1;7;1;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr1;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;2;8;2;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr2;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;5;8;5;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr3;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;6;8;6;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="arr4;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;9;8;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;9;8;9;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="arr5;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;10;8;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\openserver\domains\js.loc\js\script.js;f4;10;8;10;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="b;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;4;5;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="c;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;5;5;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="my_var;JS:JS Var Name;C:\OpenServer\domains\js.loc\js\script.js;f4;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\openserver\domains\js.loc\js\script.js" crc="1206780920"/>
+		<file name="C:\openserver\domains\js.loc\css\style.css" crc="708751817"/>
+	</filescache>
+</project>
