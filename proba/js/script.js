@@ -1,40 +1,67 @@
-// function func(param1,param2) {
-    
-//     if (param1 == 40) {
-//         var addResult = param1 * 5;
-//         alert(addResult);
-//         return;
-//     }
-//     var result = param1 * param2;
-//     alert(result);
-// }
+window.onload = function () {
+    var wrap = document.getElementById('popup_overlay');
+    var closeB = document.getElementById('popup_close');
+    var btn = document.getElementById('popupIn');
+    btn.onclick = popupOpen;
+    closeB.onclick = popupClose;
 
-// var a = 40;
-// var b = 10;
+    function popupOpen() {
+        wrap.style.display = 'block';
+        popupBtn(1);
+    }
 
-// func(a,a+b);
+    function popupBtn(x) {
+        var op = (wrap.style.opacity) ? parseFloat(wrap.style.opacity) : 0;
+        
+        if(op < x ) {
+            op += 0.05;
+            wrap.style.opacity = op;
+            
 
-// function func(x) {
+            setTimeout(function () {
+                popupBtn(x);
+            }, 50)
+        }
+    }
 
-//     if (x <= 1) {
-//         return 1;
-//     }
-//     return x * func(x-1);
-// }
+    function popup() { 
+        wrap.style.display = 'block';
+        popupIn(1);
+     }
 
-// console.log(func(3));
+     function popupClose() {
+         popupOut(0);
+     }
 
-// var date = new Date();
+     function popupIn(x) {
+        var op = (wrap.style.opacity) ? parseFloat(wrap.style.opacity) : 0;
 
-// var days = ['Воскресенье', 'Понедельник', 'Вторник']
+        if(op < x) {
+            op += 0.05;
+            wrap.style.opacity = op;
 
-// console.log(days[date.getDay()]);
+            // setTimeout(popupIn, 50, x);
+            setTimeout(function () {
+                popupIn(x);
+            }, 50);
+        }
+     }
+     function popupOut(x) {
+        var op = (wrap.style.opacity) ? parseFloat(wrap.style.opacity) : 0;
 
-function lol() {
-    var time = new Date();
-    var div = document.getElementById("clock");
-    div.innerHTML = time.toLocaleTimeString();
-    setTimeout(lol, 1000);
+        if(op > x) {
+            op -= 0.05;
+            wrap.style.opacity = op;
+
+            // setTimeout(popupIn, 50, x);
+            setTimeout(function () {
+                popupOut(x);
+            }, 50);
+        }
+        if(wrap.style.opacity == x) {
+            wrap.style.display = 'none'; 
+         }
+     }
+
+     setTimeout(popup, 3000);
 }
-
-window.onload = lol;
