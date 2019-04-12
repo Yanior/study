@@ -24,14 +24,6 @@ class Client {
         Membership: ${this.membership()}`
     }
 
-    withdraw(amount) {
-        this.balance -= amount;
-    }
-
-    deposit(amount) {
-        this.balance += amount;
-    }
-
     getBalance() {
         return this.balance;
     }
@@ -41,7 +33,28 @@ class Client {
     }
 }
 
-const mary = new Client('Mary', 1618);
-console.log(mary);
-console.log(mary.clientInfo());
-console.log(Client.welcome());
+// Business class
+class Business extends Client {
+    constructor(name, balance, phone, category) {
+        // access to parent constructor properties
+        super(name, balance);
+        this.phone = phone;
+        this.category = category;
+    }
+
+    clientInfo() {
+        return `Name: ${this.name}, Balance: ${this.balance},
+        Membership: ${this.membership()}, Phone: ${this.phone}, Category: ${this.category}`
+    }
+
+    static welcome() {
+        return 'Welcome to banking for business!';
+    }
+}
+
+// instanciate the subclass
+const business = new Business('Haml Co.', 47123123741, 892616383311, 'Production');
+
+console.log(business);
+console.log(business.clientInfo());
+console.log(business.getBalance());
