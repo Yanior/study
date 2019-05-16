@@ -2,11 +2,9 @@ document.getElementById('button1').addEventListener('click', loadEmployee);
 
 document.getElementById('button2').addEventListener('click', loadEmployees);
 
-
-
-// Display Single Employee
+// displays simple employee
 function loadEmployee() {
-     // Create the object
+     // Create the object 
      const xhr = new XMLHttpRequest();
 
      // Open the connection
@@ -16,9 +14,9 @@ function loadEmployee() {
      xhr.onload = function() {
           if(this.status === 200) {
                // Get the response as an Object
-               const employee = JSON.parse( this.responseText );
+               const employee = JSON.parse(this.responseText);
                
-               // Build the Template
+               // Build the template
                const output = `
                     <ul>
                          <li>ID: ${employee.id}</li>
@@ -27,21 +25,19 @@ function loadEmployee() {
                          <li>Job: ${employee.job}</li>
                     </ul>
                `;
-               // Prints the HTML
+               // Print the HTMl
                document.getElementById('employee').innerHTML = output;
           }
      }
-
-     // Send the request
+     
+     // send request
      xhr.send();
-
 }
 
-// Display all the Employees
 
-
+// displays simple employees
 function loadEmployees() {
-     // Create the object
+     // Create the object 
      const xhr = new XMLHttpRequest();
 
      // Open the connection
@@ -51,10 +47,10 @@ function loadEmployees() {
      xhr.onload = function() {
           if(this.status === 200) {
                // Get the response as an Object
-               const employees = JSON.parse( this.responseText );
+               const employees = JSON.parse(this.responseText);
                
                let output = '';
-               employees.forEach(function(employee) {
+               employees.forEach(function(employee){
                     output += `
                          <ul>
                               <li>ID: ${employee.id}</li>
@@ -62,15 +58,13 @@ function loadEmployees() {
                               <li>Company: ${employee.company}</li>
                               <li>Job: ${employee.job}</li>
                          </ul>
-                    `;
+                         <div>-----------------</div>
+               `;
                });
-
                document.getElementById('employees').innerHTML = output;
-              
           }
      }
-
-     // Send the request
+     
+     // send request
      xhr.send();
-
 }
